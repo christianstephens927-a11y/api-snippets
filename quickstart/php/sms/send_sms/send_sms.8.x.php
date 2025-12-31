@@ -10,12 +10,12 @@ $auth_token = getenv('TWILIO_AUTH_TOKEN');
 // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
 // A Twilio number you own with SMS capabilities
-$twilio_number = "+15017122661";
+$twilio_number = "+14192773243";
 
 $client = new Client($account_sid, $auth_token);
 $client->messages->create(
     // Where to send a text message (your cell phone?)
-    '+15558675310',
+    '+15673951691',
     array(
         'from' => $twilio_number,
         'body' => 'I sent this message in under 10 minutes!'
